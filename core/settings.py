@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     # My apps
+    'journal',
 
     # Thrid party apps
     'tailwind',
