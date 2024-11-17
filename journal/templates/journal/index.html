@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block body %}
+
+<section class="flex items-center gap-8">
+    <figure>
+        <img class="h-[45rem]" src="{% static 'img/logo.jpeg' %}" alt="A smiling black woman sitting in front of a computer screen, wearing a headset and glasses.">
+    </figure>
+    <div>
+        <h1 class="text-white text-4xl font-semibold">Authentication with OAuth 2.0</h1>
+        <figure class="w-full h-20 mt-20">
+            <img class="w-full h-full" src="{% static 'img/github.svg' %}" alt="GitHub icon">
+            <figcaption class="text-white text-center mt-4">GitHub</figcaption>
+        </figure>
+    </div>
+</section>
+
+{% endblock  %}
