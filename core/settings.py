@@ -27,7 +27,7 @@ SECRET_KEY = config('SECRET_KEY')
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '8000-emidiovaler-technewsjou-63ikihacb8g.ws-us116.gitpod.io'
+    '8000-emidiovaler-technewsjou-63ikihacb8g.ws-eu116.gitpod.io'
 ]
 
 
@@ -166,3 +166,9 @@ SOCIALACCOUNT_PROVIDERS = {
         }
     }
 }
+
+ACCOUNT_DEFAULT_HTTP_PROTOCOL='https'
+LOGIN_REDIRECT_URL = '/members/'
+LOGOUT_REDIRECT_URL = '/'
+SOCIALACCOUNT_LOGIN_ON_GET = True
+ACCOUNT_LOGOUT_ON_GET = True
